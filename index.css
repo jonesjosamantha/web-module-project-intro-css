@@ -35,17 +35,25 @@ blockquote, q {
         margin: 0;
         max-width: 100%;
         border: 1px solid gray;
+        font-family: 'Roboto Mono', monospace;
     }
 
     /*General Styles*/
 html{
         font-size: 62.5%;
     }
+
 body {
     font-size: 1.6rem;
     line-height: 1.5;
     color: #4f4f4f /*accessibility*/
+    background-color: #DDB9A3;
     }
+
+h1 {
+        font-family: 'Chelsea Market', cursive;
+    }
+
 section {
     padding: 4% 0;
 }
@@ -105,4 +113,17 @@ nav {
         top: 45%;
     }
 
-    
+    /*Footer Styler*/
+
+    footer {
+        display: inline-block;
+        background-color: #F9E7DC;
+     
+    }
+
+    footer img {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        
+    }
